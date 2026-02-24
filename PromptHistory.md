@@ -30,6 +30,19 @@
 
 ## 2026-02-24
 
+
+&nbsp;
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║            ✦  BEGIN ROBLOX ANIMATION PROJECT  ✦             ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+&nbsp;
+
 1. [2026-02-24, time unknown] create a new directory named Roblox_Animation in the workspace, with a markup file describing that project. We will put a description of the project I want to make in that file.
 2. [2026-02-24, time unknown] We are going to create a library of lua modules and components to support (1) creating Curve Animations (2) creating animation assets in the Roblox cloud (3) wiring those animations to drive properties (4) a plugin for analyzing memory usage and playback speed of those animations and (5) a plugin for creating interactive triggers that start and stop the playback of those animations
 3. [2026-02-24, time unknown] initialize a git repo for this project
