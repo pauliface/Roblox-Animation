@@ -1,0 +1,7 @@
+{
+	"name": "CurveAnimations",
+	"tree": {
+		"$className": "ModuleScript",
+		"$path": "src"
+	}
+}

@@ -126,3 +126,6 @@ Remember this formatting for the future.
 
 14. [2026-02-24, time unknown]
 clear the context
+
+15. [2026-02-24, time unknown]
+within the Roblox Animation library, create a new library called CurveAnimations
