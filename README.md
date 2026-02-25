@@ -9,7 +9,15 @@ A library of Lua modules and tooling for creating, publishing, and driving curve
 ### 1. Curve Animation Library
 Lua modules for defining and evaluating curve animations — keyframed value sequences that can drive arbitrary properties over time. Handles interpolation, looping, and playback state.
 
-**Status:** Scaffold created at `CurveAnimations/`
+**Status:** In progress — `CurveAnimations/`
+
+**Methods implemented:**
+
+| Method                                                       | Curve Type            | How it works                                                   |
+|--------------------------------------------------------------|-----------------------|----------------------------------------------------------------|
+| `Vector3_Vector3_Bounce(part, height, numSecs)`              | `Vector3Curve`        | `:X()` `:Y()` `:Z()` FloatCurves                               |
+| `Vector3_ValueCurve_Bounce(part, height, numSecs)`           | `ValueCurve`          | Full `Vector3` per key                                         |
+| `Vector3_CompositeValueCurve_Bounce(part, height, numSecs)`  | `CompositeValueCurve` | Named X, Y, Z `FloatCurve` children via `GetComponentCurves()` |
 
 ### 2. Roblox Cloud Animation Asset Creation
 Modules for creating and publishing animation assets to the Roblox cloud via the Open Cloud API, so animations can be authored programmatically rather than through the Studio animation editor.

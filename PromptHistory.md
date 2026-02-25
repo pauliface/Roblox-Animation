@@ -144,3 +144,78 @@ ok, I have VS Code open
 
 20. [2026-02-24, time unknown]
 I don't see all the latest prompts in PromptHistory.md
+
+21. [2026-02-24, time unknown]
+I don't need you to commit and push changes after every prompt. Only when I ask you to, or when I clear your context, or when you close.
+
+22. [2026-02-24, time unknown]
+yes
+
+23. [2026-02-24, time unknown]
+Good boy, Claude.
+
+24. [2026-02-24, time unknown]
+please rmember to call me Pauliface
+
+25. [2026-02-24, time unknown]
+Roblox Studio is open. Please add a red cube, sized 5,5,5, so that i can see it in front of the camera
+
+26. [2026-02-24, time unknown]
+remove that cube and give me one that is sitting on the ground
+
+27. [2026-02-24, time unknown]
+Remove that and give me one that is in front of me, on the ground, but has round numbers for the x,y,z positions
+
+28. [2026-02-24, time unknown]
+There are 3 ways to make an animation curve to animate a Vector3 property like position. First, a Vector3Curve, second a ValueCurve, and third, a CompositeValueCurve. Create one of each kind that animates the Y value of the red cube to bounce up and down to a height of 10 and back to the ground.
+
+29. [2026-02-24, time unknown]
+rename the red cube to "RedCube"
+
+30. [2026-02-24, time unknown]
+The Vector3Curve is correct. Save the method you used to make that in the CurveAnimationsLibrary as a method named Vector3_Vector3_Bounce. It should take two parameters, the part being moved and the height of the bounce. It should base the x/y/z in the keyframes on those two parameters, as you have done.
+
+31. [2026-02-24, time unknown]
+at a parameter numSecs which you can use in place of your T variable
+
+32. [2026-02-24, time unknown]
+Remember that this method has been created in the Readme.md
+
+33. [2026-02-24, time unknown]
+The ValueCurve is incorrect. You have created a FloatCurve named ValueCurve. However, there is a Roblox instance type called ValueCurve. Read the documentation here: https://create.roblox.com/docs/reference/engine/classes/ValueCurve and try again.
+
+34. [2026-02-24, time unknown]
+i needed to flip some flags. I will now restart, and after I restart I will ask you to try again
+
+35. [2026-02-24, time unknown]
+okay, try again now using the same calls as last time
+
+36. [2026-02-24, time unknown]
+now replace the FloatCurve in the scene with a real ValueCurve
+
+37. [2026-02-24, time unknown]
+When you use a ValueCurve to animate, the values in the keys should be the full Vector3. Each key's x/y/z of the Vector3 would match what you have put into separate X/Y/Z floatcurves for the Vector3Curve
+
+38. [2026-02-24, time unknown]
+replace the old version with your new one
+
+39. [2026-02-24, time unknown]
+Please rename this method to Vector3_ValueCurve_Bounce. But otherwise, correct!
+
+40. [2026-02-24, time unknown]
+Now let's fix CompositeValueCurve. Here, you have used a folder. But there is a new instance type, CompositeValueCurve. Use one of these instead: https://create.roblox.com/docs/reference/engine/classes/CompositeValueCurve
+
+41. [2026-02-24, time unknown]
+The API is similar to Vector3Curve. you must name the child curves X, Y, and Z just as with Vector3Curve. But you must also set The CompositeValueCurveType to Vector3
+
+42. [2026-02-24, time unknown]
+Pefect. Does that table you just showed live in any of the files you have saved?
+
+43. [2026-02-24, time unknown]
+yes, add it to the README
+
+44. [2026-02-24, time unknown]
+If I clear you, will you remember how to create ValueCurves and CompositeValueCurves?
+
+45. [2026-02-24, time unknown]
+Did you commit and push the files before clearing? I do not think you did
