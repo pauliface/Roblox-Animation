@@ -123,3 +123,6 @@ Also, add a newline after the date/time, and before the text of the prompt.
 
 13. [2026-02-24, time unknown]
 Remember this formatting for the future.
+
+14. [2026-02-24, time unknown]
+clear the context
