@@ -129,3 +129,18 @@ clear the context
 
 15. [2026-02-24, time unknown]
 within the Roblox Animation library, create a new library called CurveAnimations
+
+16. [2026-02-24, time unknown]
+Add the above task to the first section of the README.md file you created earlier
+
+17. [2026-02-24, time unknown]
+Am I correct in saying that when you start up and look at the README.md, you will understand that you have already created the CurveAnimations library and you will not repeat that action?
+
+18. [2026-02-24, time unknown]
+can you tell me the name of a text editor on mac that I can use to look at your files, that has a reload command to update your changes without reloading? Or one that automatically reloads?
+
+19. [2026-02-24, time unknown]
+ok, I have VS Code open
+
+20. [2026-02-24, time unknown]
+I don't see all the latest prompts in PromptHistory.md
